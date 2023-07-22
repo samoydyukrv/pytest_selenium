@@ -15,7 +15,7 @@ class TestDocker:
     def test_sel(self):
         driver = webdriver.Chrome()
 
-        url = 'https://www.google.com.ua/'
+        url = 'https://www.google.com.ua'
         driver.get(url)
 
         text_field = driver.find_element(by=By.CSS_SELECTOR, value="div textarea")
